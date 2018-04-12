@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
-import { Text, View } from 'react-native';
+import { ScrollView } from 'react-native';
 import Header from './src/components/Header';
 import AlbumList from './src/components/AlbumList';
 
 const App = () => (
-  <View>
+  <ScrollView>
     <Header headerText={'Albums'}/>
     <AlbumList />
-  </View>
+  </ScrollView>
 );
 
 export default App;
